@@ -19,11 +19,12 @@ p {
 
 .chat-window {
   height:300px;
+  width: 400px;
   background-color:#000000;
   font-family: Courier;
   border:1px solid #808080;
   border-radius: 7px;
-  margin:10px;
+  margin:5px;
   padding:5px;
   overflow-y: auto;
 }
