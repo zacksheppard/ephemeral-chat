@@ -8,13 +8,13 @@ body {
   background-color: #200020;
 }
 
-h1 {
+h1, p {
   color: #CC00CC;
   font-family: 'VT323';
 }
 
 p {
-  color: #CC00CC;
+  font-size: 1.2em;
 }
 
 .chat-window {

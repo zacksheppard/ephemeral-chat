@@ -8,7 +8,7 @@ function chat(){
     if (chatInput.match("/name")) {
       name = chatInput.replace(/\/name\s*/, '');
       $(this).data('name', name);
-      $(this).find("input:first").attr('placeholder', $(this).data('name') + ' says...' ); 
+      $(this).find("input:first").attr('placeholder', '> ' + $(this).data('name') + ' says...' ); 
       event.preventDefault();
       this.reset();
     } else { 
