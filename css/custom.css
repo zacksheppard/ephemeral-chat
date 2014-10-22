@@ -13,6 +13,10 @@ h1 {
   font-family: 'VT323';
 }
 
+p {
+  color: #CC00CC;
+}
+
 .chat-window {
   height:300px;
   background-color:#000000;
