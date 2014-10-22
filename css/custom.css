@@ -48,17 +48,17 @@ ul {
 }
 
 #user1 {
-  color: #00FF00;
+  color: #E62E8A;
 }
 
 #user1::-webkit-input-placeholder {
-  color: #29A329;
+  color: #CF297C;
 }
 
 #user2 {
-  color: #FF0000;
+  color: #B82EE6;
 }
 
 #user2::-webkit-input-placeholder {
-  color: #A30000;
+  color: #9325B8;
 }
