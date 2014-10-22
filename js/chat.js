@@ -4,8 +4,9 @@ $(document).ready(function(){
 });
 
 function chat(){
-  $(".form").submit(function(){
-    $('ul').append('<li>' + $('.form input').val() + '</li>');
+  $("form").submit(function(){
+    var chatInput = $(this).find("input:first").val();
+    $('ul').append('<li>' + chatInput + '</li>');
     event.preventDefault();
   })
 }
