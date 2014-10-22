@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 function chat(){
   $(".form").submit(function(){
-    $('ul').append('<li>' + $('#user-input').val() + '</li>');
+    $('ul').append('<li>' + $('.form input').val() + '</li>');
     event.preventDefault();
   })
 }
