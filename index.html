@@ -2,49 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Ephemeral Chat</title>
+    <title>Ephemeral Chat Client</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel='stylesheet' href='css/custom.css' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/chat.js"></script>
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class ="text-center">Ephemeral Chat Client</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-5 col-sm-5 chat-window" id="user1">
+          <ul></ul>
+          <div class="chat-form">
+            <form id="user1" data-name="User One" class="form" role="form">
+              <input id="user1" type="text" class="form-control" placeholder="> User 1 says...">
+            </form>
+          </div>
+        </div>
+        <div class="col-md-5 col-sm-5 chat-window pull-right" id="user2">
+          <ul></ul>
+          <div class="chat-form">
+            <form id="user2" data-name="User Two" class="form" role="form">
+              <input id="user2" type="text" class="form-control" placeholder="> User 2 says...">
+            </form>
+          </div>
+        </div>
+      </div>
 
       <div class="row">
         <div class="col-md-12">
-          <h1>Ephemeral Chat</h1>
+          <p class ="text-center">To set your name type: '/name <em>yourname</em>'</p>
+          <p class ="text-center">To forget this ever happened: Cmd+W</p>
         </div>
       </div>
 
-      <!-- Chat windows -->
-      <div class="row">
-        <div class="col-md-5 chat-window" id="user1">
-          <ul>
-
-          </ul>
-        </div>
-        <div class="col-md-5 chat-window" id="user2">
-          <ul>
-
-          </ul>
-        </div>
-      </div>
-
-      <!-- Chat forms -->
-      <div class="row">
-        <div class="col-md-5 chat-form">
-          <form id="user1" class="form" role="form">
-            <input id="user1" type="text" class="form-control" placeholder="Chat here">
-          </form>
-        </div>
-
-        <div class="col-md-5 chat-form">
-          <form id="user2" class="form" role="form">
-            <input id="user2" type="text" class="form-control" placeholder="Chat here">
-          </form>
-        </div>
-      </div>
     </div>
   </body>
 
