@@ -1,15 +1,14 @@
 body {
-  /*background: url('http://farm4.static.flickr.com/3432/3700124890_280bb32fa8.jpg') no-repeat center center fixed;*/
-  background: url('http://www.ivanbrooker.com/images/full/2013/08/26/image-really-big-sky-background-black-hole-steam-trading_Really_Big_Sky_Background_Black_Hole.jpg') no-repeat center center fixed;
+/*  background: url('http://www.ivanbrooker.com/images/full/2013/08/26/image-really-big-sky-background-black-hole-steam-trading_Really_Big_Sky_Background_Black_Hole.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  background-color: #200020;
+  background-size: cover;*/
+  background-color: #3498db;
 }
 
 h1, p {
-  color: #CC00CC;
+  color: #ddd;
   font-family: 'VT323';
 }
 
@@ -20,7 +19,7 @@ p {
 .chat-window {
   height:300px;
   width: 400px;
-  background-color:#000000;
+  background-color:#33485d;
   font-family: Courier;
   border:1px solid #808080;
   border-radius: 7px;
@@ -42,7 +41,7 @@ p {
 
 .chat-form input {
   color: #781351;
-  background: #000000;
+  background: #33485d;
   border-radius: 0px;
   border: none;
 }
@@ -53,17 +52,17 @@ ul {
 }
 
 #user1 {
-  color: #E62E8A;
+  color: #01ff70;
 }
 
 #user1::-webkit-input-placeholder {
-  color: #CF297C;
+  color: #2ecc40;
 }
 
 #user2 {
-  color: #B82EE6;
+  color: #ffdc00;
 }
 
 #user2::-webkit-input-placeholder {
-  color: #9325B8;
+  color: #ffdc00;
 }
