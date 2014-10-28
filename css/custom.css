@@ -1,9 +1,4 @@
 body {
-/*  background: url('http://www.ivanbrooker.com/images/full/2013/08/26/image-really-big-sky-background-black-hole-steam-trading_Really_Big_Sky_Background_Black_Hole.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
   background-color: #3498db;
 }
 
@@ -21,7 +16,7 @@ p {
   width: 400px;
   background-color:#33485d;
   font-family: Courier;
-  border:1px solid #808080;
+  border:2px solid #ddd;
   border-radius: 7px;
   margin:5px;
   padding:5px;
@@ -30,7 +25,6 @@ p {
 
 .chat-form {
   background-color: #efefef;
-
   border:0px;
   margin: 0px;
   padding: 0px;
@@ -54,15 +48,28 @@ ul {
 #user1 {
   color: #01ff70;
 }
-
 #user1::-webkit-input-placeholder {
   color: #2ecc40;
 }
-
 #user2 {
   color: #ffdc00;
 }
-
 #user2::-webkit-input-placeholder {
   color: #ffdc00;
+}
+
+@media only screen and (max-width: 840px) {
+  li {
+    font-size: 1.5em;
+  }
+  .chat-form input {
+    font-size: 1.5em;
+  }
+  body {
+    background-color: #000;
+  }
+  .chat-window {
+    height:280px;
+    width: 85%;
+  }
 }
