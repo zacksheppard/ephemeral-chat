@@ -32,7 +32,7 @@ ul {
   width: 98%;
   bottom: 0;
   padding: 0;
-  border:0;
+  border: 0;
   margin: 2px;
   background-color: #efefef;
 }
@@ -46,8 +46,15 @@ ul {
 
 #user1 { color: #01ff70; }
 #user1::-webkit-input-placeholder { color: #2ecc40; }
+#user1::-moz-placeholder          { color: #2ecc40; }
+#user1:-moz-placeholder           { color: #2ecc40; }
+#user1:-ms-input-placeholder      { color: #2ecc40; }
+
 #user2 { color: #ffdc00; }
-#user2::-webkit-input-placeholder { color: #ffdc00; }
+#user2::-webkit-input-placeholder { color: #e3C500; }
+#user2::-moz-placeholder          { color: #e3C500; }
+#user2:-moz-placeholder           { color: #e3C500; }
+#user2:-ms-input-placeholder      { color: #e3C500; }
 
 
 @media only screen and (max-width: 840px) {

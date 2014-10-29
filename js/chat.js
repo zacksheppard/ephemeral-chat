@@ -3,17 +3,17 @@ $(document).ready(function(){
 });
 
 function chat(){
-  $("form").submit(function(){
+  $("form").submit(function(e){
     var chatInput = $(this).find("input:first").val();
     if (chatInput.match("/name")) {
       form = $(this);
       setName(chatInput, form);
-      event.preventDefault();
+      e.preventDefault();
       this.reset();
     } else { 
       var id = $(this).attr('id')
       $('ul').append('<li id="' + id + '" > > ' + chatInput + '</li>');
-      event.preventDefault();
+      e.preventDefault();
       this.reset();
     }
   })
