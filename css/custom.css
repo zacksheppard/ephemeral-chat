@@ -23,6 +23,11 @@ p {
   position: relative;
 }
 
+.chat-history {
+  height: 86%;
+  overflow: auto;
+}
+
 .chat-form {
   background-color: #efefef;
   border:0px;
@@ -30,7 +35,7 @@ p {
   padding: 0px;
   position: absolute; 
   bottom: 0;
-  width: 95%;
+  width: 98%;
 }
 
 .chat-form input {
