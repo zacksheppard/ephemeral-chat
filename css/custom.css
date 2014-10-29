@@ -1,26 +1,27 @@
-body {
-  background-color: #3498db;
-}
+body { background-color: #3498db; }
+p { font-size: 1.2em; }
 
-h1, p {
+h1, 
+p {
   color: #ddd;
   font-family: 'Droid Sans Mono';
 }
 
-p {
-  font-size: 1.2em;
+ul {
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .chat-window {
+  position: relative;
   height:300px;
-  background-color:#33485d;
-  font-family: Courier;
+  padding:5px;
   border:2px solid #ddd;
   border-radius: 7px;
-  padding:5px;
-  overflow: auto;
   margin-bottom: 15px;
-  position: relative;
+  overflow: auto;
+  font-family: Courier;
+  background-color:#33485d;
 }
 
 .chat-history {
@@ -29,47 +30,28 @@ p {
 }
 
 .chat-form {
-  background-color: #efefef;
-  border:0px;
-  margin: 2px;
-  padding: 0px;
   position: absolute; 
-  bottom: 0;
   width: 98%;
+  bottom: 0;
+  padding: 0;
+  border:0;
+  margin: 2px;
+  background-color: #efefef;
 }
 
 .chat-form input {
+  border: none;
+  border-radius: 0;
   color: #781351;
   background: #33485d;
-  border-radius: 0px;
-  border: none;
 }
 
-ul {
-  list-style-type: none;
-  padding-left: 0;
-}
+#user1 { color: #01ff70; }
+#user1::-webkit-input-placeholder { color: #2ecc40; }
+#user2 { color: #ffdc00; }
+#user2::-webkit-input-placeholder { color: #ffdc00; }
 
-.my-inner {
-  padding: 10px;
-  margin: 10px;
-}
-
-#user1 {
-  color: #01ff70;
-}
-#user1::-webkit-input-placeholder {
-  color: #2ecc40;
-}
-#user2 {
-  color: #ffdc00;
-}
-#user2::-webkit-input-placeholder {
-  color: #ffdc00;
-}
 
 @media only screen and (max-width: 840px) {
-  li, .chat-form input {
-    font-size: 1.2em;
-  }
+  li, .chat-form input { font-size: 1.2em; }
 }
