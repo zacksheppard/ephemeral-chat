@@ -13,12 +13,10 @@ p {
 
 .chat-window {
   height:300px;
-  width: 400px;
   background-color:#33485d;
   font-family: Courier;
   border:2px solid #ddd;
   border-radius: 7px;
-  margin:5px;
   padding:5px;
   overflow: auto;
 }
@@ -59,17 +57,12 @@ ul {
 }
 
 @media only screen and (max-width: 840px) {
-  li {
-    font-size: 1.5em;
+  li, .chat-form input {
+    font-size: 1.2em;
   }
-  .chat-form input {
-    font-size: 1.5em;
-  }
+
   body {
     background-color: #000;
   }
-  .chat-window {
-    height:280px;
-    width: 85%;
-  }
+
 }
