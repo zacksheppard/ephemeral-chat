@@ -1,11 +1,9 @@
-body { background-color: #3498db; }
-p { font-size: 1.2em; }
-
-h1, 
-p {
+body { 
+  background-color: #3498db; 
   color: #ddd;
   font-family: 'Droid Sans Mono';
 }
+p { font-size: 1.2em; }
 
 ul {
   list-style-type: none;
