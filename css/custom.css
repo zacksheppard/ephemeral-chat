@@ -10,6 +10,34 @@ ul {
   padding-left: 0;
 }
 
+h2 { color: #01FF70; }
+
+.bubble 
+{
+  position: relative;
+  padding: 5px;
+  margin: 25px;
+  background: #001F3F;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  border: #ddd solid 0px;
+}
+
+.bubble:after 
+{
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-color: #001F3F transparent;
+  display: block;
+  z-index: 1;
+  width: 0;
+  left: 23px;
+  border-width: 18px 12px 0;
+  bottom: -18px;
+}
+
 .chat-window {
   position: relative;
   height:300px;
@@ -59,4 +87,5 @@ ul {
 
 @media only screen and (max-width: 786px) {
   li, .chat-form input { font-size: 1.2em; }
+  h2 { font-size: 1.7em; }
 }
